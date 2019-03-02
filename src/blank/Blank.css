@@ -1,0 +1,144 @@
+.home-banner{
+    background-size: cover;
+    min-height: 600px;
+    background: url('/images/slider.jpg');
+    padding-bottom:50px;
+}
+.slider-title_box {
+    text-align: center;
+}
+h1.title-banner{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 300;
+}
+.slider-content_wrap h5 {
+    color: #a0a0a0;
+    font-weight: 400;
+    margin: 24px 0;
+    font-size: 25px;
+
+}
+.btn-group {
+    width: 100%;
+}
+.search-home .ant-input-lg{
+    height: 52px;
+}
+.search-home .ant-btn-lg{
+    height: 52px;
+}
+select.select-location-banner{
+    border-radius:0px;
+}
+.main-block {
+    padding: 90px 0;
+}
+.styled-heading {
+    text-align: center;
+    margin: 0 0 50px;
+}
+.styled-heading h3::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #ff3a6d;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+
+figure.effect-ruby {
+
+    background-color: #000;
+
+}
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    background: #3085a3;
+    background-color: rgb(48, 133, 163);
+    text-align: center;
+    cursor: pointer;
+}
+figure.effect-ruby img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.grid figure figcaption, .grid figure figcaption > a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.grid figure figcaption h5 {
+    font-weight: 400;
+    text-align: left;
+    color:#fff;
+}
+.grid figure h5, .grid figure p {
+    margin: 0;
+}
+.grid figure h5 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+.grid figure p {
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: left;
+    margin: 6px 0 0;
+}
+.grid figure h5, .grid figure p {
+    margin: 0;
+}
+.find-img-align {
+    padding: 0 0 15px;
+}
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+.grid figure figcaption, .grid figure figcaption > a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
